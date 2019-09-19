@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.13)
-project(clion_opencv_tutorials1)
+project(clion_opencv_tutorials2)
 
 set(CMAKE_CXX_STANDARD 11)
 
