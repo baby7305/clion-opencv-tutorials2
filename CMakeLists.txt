@@ -11,9 +11,11 @@ add_executable(clion_opencv_app main.cpp)
 add_executable(line ./line/line.cpp)
 add_executable(histNormalized ./normalize/histNormalized.cpp)
 add_executable(normalize_opencv ./normalize/normalize_opencv.cpp)
+add_executable(normalize ./normalize/normalize.cpp)
 
 
 target_link_libraries(clion_opencv_app ${OpenCV_LIBS})
 target_link_libraries(line ${OpenCV_LIBS})
 target_link_libraries(histNormalized ${OpenCV_LIBS})
 target_link_libraries(normalize_opencv ${OpenCV_LIBS})
+target_link_libraries(normalize ${OpenCV_LIBS})
