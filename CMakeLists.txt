@@ -11,9 +11,11 @@ add_executable(clion_opencv_app main.cpp)
 add_executable(conv2D ./discrete/conv2D.cpp)
 add_executable(copyMakeBorder ./discrete/copyMakeBorder.cpp)
 add_executable(sepConv2D_X_Y ./discrete/sepConv2D_X_Y.cpp)
+add_executable(gaussBlur ./gaussBlur/gaussBlur.cpp)
 
 
 target_link_libraries(clion_opencv_app ${OpenCV_LIBS})
 target_link_libraries(conv2D ${OpenCV_LIBS})
 target_link_libraries(copyMakeBorder ${OpenCV_LIBS})
 target_link_libraries(sepConv2D_X_Y ${OpenCV_LIBS})
+target_link_libraries(gaussBlur ${OpenCV_LIBS})
