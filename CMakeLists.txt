@@ -14,6 +14,7 @@ add_executable(normalize_opencv ./normalize/normalize_opencv.cpp)
 add_executable(normalize ./normalize/normalize.cpp)
 add_executable(gamma ./gamma/gamma.cpp)
 add_executable(equalHist ./equlization/equalHist.cpp)
+add_executable(histequlization_opencv ./equlization/histequlization_opencv.cpp)
 
 
 target_link_libraries(clion_opencv_app ${OpenCV_LIBS})
@@ -23,3 +24,4 @@ target_link_libraries(normalize_opencv ${OpenCV_LIBS})
 target_link_libraries(normalize ${OpenCV_LIBS})
 target_link_libraries(gamma ${OpenCV_LIBS})
 target_link_libraries(equalHist ${OpenCV_LIBS})
+target_link_libraries(histequlization_opencv ${OpenCV_LIBS})
