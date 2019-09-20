@@ -13,6 +13,7 @@ add_executable(rotate_OpenCV3 ./affine/rotate_OpenCV3.cpp)
 add_executable(perspective ./perspective/perspective.cpp)
 add_executable(polar ./polar/polar.cpp)
 add_executable(linearPolar_OpenCV3 ./polar/linearPolar_OpenCV3.cpp)
+add_executable(logPolar_OpenCV3 ./polar/logPolar_OpenCV3.cpp)
 
 
 target_link_libraries(clion_opencv_app ${OpenCV_LIBS})
@@ -21,3 +22,4 @@ target_link_libraries(rotate_OpenCV3 ${OpenCV_LIBS})
 target_link_libraries(perspective ${OpenCV_LIBS})
 target_link_libraries(polar ${OpenCV_LIBS})
 target_link_libraries(linearPolar_OpenCV3 ${OpenCV_LIBS})
+target_link_libraries(logPolar_OpenCV3 ${OpenCV_LIBS})
