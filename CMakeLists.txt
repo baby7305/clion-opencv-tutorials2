@@ -17,6 +17,7 @@ add_executable(canny ./canny/canny.cpp)
 add_executable(canny_opencv ./canny/canny_opencv.cpp)
 add_executable(lap ./laplacian/lap.cpp)
 add_executable(LoG ./LoG/LoG.cpp)
+add_executable(DoG ./DoG/DoG.cpp)
 
 
 target_link_libraries(clion_opencv_app ${OpenCV_LIBS})
@@ -29,3 +30,4 @@ target_link_libraries(canny ${OpenCV_LIBS})
 target_link_libraries(canny_opencv ${OpenCV_LIBS})
 target_link_libraries(lap ${OpenCV_LIBS})
 target_link_libraries(LoG ${OpenCV_LIBS})
+target_link_libraries(DoG ${OpenCV_LIBS})
