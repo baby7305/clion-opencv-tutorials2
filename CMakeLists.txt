@@ -18,6 +18,7 @@ add_executable(canny_opencv ./canny/canny_opencv.cpp)
 add_executable(lap ./laplacian/lap.cpp)
 add_executable(LoG ./LoG/LoG.cpp)
 add_executable(DoG ./DoG/DoG.cpp)
+add_executable(Marr_Hildreth ./Marr_Hildreth/Marr_Hildreth.cpp)
 
 
 target_link_libraries(clion_opencv_app ${OpenCV_LIBS})
@@ -31,3 +32,4 @@ target_link_libraries(canny_opencv ${OpenCV_LIBS})
 target_link_libraries(lap ${OpenCV_LIBS})
 target_link_libraries(LoG ${OpenCV_LIBS})
 target_link_libraries(DoG ${OpenCV_LIBS})
+target_link_libraries(Marr_Hildreth ${OpenCV_LIBS})
