@@ -9,7 +9,9 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 
 add_executable(clion_opencv_app main.cpp)
 add_executable(erode ./erode/erode.cpp)
+add_executable(dilate ./dilate/dilate.cpp)
 
 
 target_link_libraries(clion_opencv_app ${OpenCV_LIBS})
 target_link_libraries(erode ${OpenCV_LIBS})
+target_link_libraries(dilate ${OpenCV_LIBS})
