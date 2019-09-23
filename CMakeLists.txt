@@ -11,9 +11,11 @@ add_executable(clion_opencv_app main.cpp)
 add_executable(thresh ./outline/thresh.cpp)
 add_executable(threshold_OpenCV3 ./outline/threshold_OpenCV3.cpp)
 add_executable(threshTwoPeaks ./twoPeaks/threshTwoPeaks.cpp)
+add_executable(threshPun ./entropy/threshPun.cpp)
 
 
 target_link_libraries(clion_opencv_app ${OpenCV_LIBS})
 target_link_libraries(thresh ${OpenCV_LIBS})
 target_link_libraries(threshold_OpenCV3 ${OpenCV_LIBS})
 target_link_libraries(threshTwoPeaks ${OpenCV_LIBS})
+target_link_libraries(threshPun ${OpenCV_LIBS})
