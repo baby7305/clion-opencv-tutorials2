@@ -15,6 +15,7 @@ add_executable(gaussBlur ./gaussBlur/gaussBlur.cpp)
 add_executable(fastMeanBlur ./fastMeanBlur/fastMeanBlur.cpp)
 add_executable(medianSmooth ./medianSmooth/medianSmooth.cpp)
 add_executable(bilateralFiltering ./bilateralFiltering/BilateralFiltering.cpp)
+add_executable(bilateralFilteringColor ./bilateralFiltering/BilateralFilteringColor.cpp)
 
 
 target_link_libraries(clion_opencv_app ${OpenCV_LIBS})
@@ -25,3 +26,4 @@ target_link_libraries(gaussBlur ${OpenCV_LIBS})
 target_link_libraries(fastMeanBlur ${OpenCV_LIBS})
 target_link_libraries(medianSmooth ${OpenCV_LIBS})
 target_link_libraries(bilateralFiltering ${OpenCV_LIBS})
+target_link_libraries(bilateralFilteringColor ${OpenCV_LIBS})
