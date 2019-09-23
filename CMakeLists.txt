@@ -12,6 +12,7 @@ add_executable(roberts ./roberts/roberts.cpp)
 add_executable(prewitt ./prewitt/prewitt.cpp)
 add_executable(sobel ./sobel/sobel.cpp)
 add_executable(scharr ./scharr/scharr.cpp)
+add_executable(kirsch ./kirsch/kirsch.cpp)
 
 
 target_link_libraries(clion_opencv_app ${OpenCV_LIBS})
@@ -19,3 +20,4 @@ target_link_libraries(roberts ${OpenCV_LIBS})
 target_link_libraries(prewitt ${OpenCV_LIBS})
 target_link_libraries(sobel ${OpenCV_LIBS})
 target_link_libraries(scharr ${OpenCV_LIBS})
+target_link_libraries(kirsch ${OpenCV_LIBS})
