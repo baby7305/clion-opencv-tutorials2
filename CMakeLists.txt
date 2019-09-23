@@ -14,6 +14,7 @@ add_executable(threshTwoPeaks ./twoPeaks/threshTwoPeaks.cpp)
 add_executable(threshPun ./entropy/threshPun.cpp)
 add_executable(otsu ./otsu/otsu.cpp)
 add_executable(adaptiveThresh ./adaptive/adaptiveThresh.cpp)
+add_executable(bitwise_and ./bitwise/bitwise_and.cpp)
 
 
 target_link_libraries(clion_opencv_app ${OpenCV_LIBS})
@@ -23,3 +24,4 @@ target_link_libraries(threshTwoPeaks ${OpenCV_LIBS})
 target_link_libraries(threshPun ${OpenCV_LIBS})
 target_link_libraries(otsu ${OpenCV_LIBS})
 target_link_libraries(adaptiveThresh ${OpenCV_LIBS})
+target_link_libraries(bitwise_and ${OpenCV_LIBS})
