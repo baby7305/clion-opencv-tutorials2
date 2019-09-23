@@ -17,6 +17,7 @@ add_executable(medianSmooth ./medianSmooth/medianSmooth.cpp)
 add_executable(bilateralFiltering ./bilateralFiltering/BilateralFiltering.cpp)
 add_executable(bilateralFilteringColor ./bilateralFiltering/BilateralFilteringColor.cpp)
 add_executable(jointBilterFilter ./jointBilterFilter/JointBilterFilter.cpp)
+add_executable(guidedFilter ./guidedFilter/guidedFilter.cpp)
 
 
 target_link_libraries(clion_opencv_app ${OpenCV_LIBS})
@@ -29,3 +30,4 @@ target_link_libraries(medianSmooth ${OpenCV_LIBS})
 target_link_libraries(bilateralFiltering ${OpenCV_LIBS})
 target_link_libraries(bilateralFilteringColor ${OpenCV_LIBS})
 target_link_libraries(jointBilterFilter ${OpenCV_LIBS})
+target_link_libraries(guidedFilter ${OpenCV_LIBS})
