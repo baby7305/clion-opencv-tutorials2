@@ -15,6 +15,7 @@ add_executable(scharr ./scharr/scharr.cpp)
 add_executable(kirsch ./kirsch/kirsch.cpp)
 add_executable(canny ./canny/canny.cpp)
 add_executable(canny_opencv ./canny/canny_opencv.cpp)
+add_executable(lap ./laplacian/lap.cpp)
 
 
 target_link_libraries(clion_opencv_app ${OpenCV_LIBS})
@@ -25,3 +26,4 @@ target_link_libraries(scharr ${OpenCV_LIBS})
 target_link_libraries(kirsch ${OpenCV_LIBS})
 target_link_libraries(canny ${OpenCV_LIBS})
 target_link_libraries(canny_opencv ${OpenCV_LIBS})
+target_link_libraries(lap ${OpenCV_LIBS})
