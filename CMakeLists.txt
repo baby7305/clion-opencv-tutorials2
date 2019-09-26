@@ -16,6 +16,7 @@ add_executable(HTLine ./houghLine/HTLine.cpp)
 add_executable(ContourArea ./outline/ContourArea.cpp)
 add_executable(convexityDefects ./outline/convexityDefects.cpp)
 add_executable(fillPoly ./outline/fillPoly.cpp)
+add_executable(findContours ./outline/findContours.cpp)
 
 
 target_link_libraries(clion_opencv_app ${OpenCV_LIBS})
@@ -27,3 +28,4 @@ target_link_libraries(HTLine ${OpenCV_LIBS})
 target_link_libraries(ContourArea ${OpenCV_LIBS})
 target_link_libraries(convexityDefects ${OpenCV_LIBS})
 target_link_libraries(fillPoly ${OpenCV_LIBS})
+target_link_libraries(findContours ${OpenCV_LIBS})
