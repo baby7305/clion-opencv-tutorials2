@@ -17,6 +17,7 @@ add_executable(ContourArea ./outline/ContourArea.cpp)
 add_executable(convexityDefects ./outline/convexityDefects.cpp)
 add_executable(fillPoly ./outline/fillPoly.cpp)
 add_executable(findContours ./outline/findContours.cpp)
+add_executable(pointPolygonTest ./outline/pointPolygonTest.cpp)
 
 
 target_link_libraries(clion_opencv_app ${OpenCV_LIBS})
@@ -29,3 +30,4 @@ target_link_libraries(ContourArea ${OpenCV_LIBS})
 target_link_libraries(convexityDefects ${OpenCV_LIBS})
 target_link_libraries(fillPoly ${OpenCV_LIBS})
 target_link_libraries(findContours ${OpenCV_LIBS})
+target_link_libraries(pointPolygonTest ${OpenCV_LIBS})
