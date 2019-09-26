@@ -15,6 +15,7 @@ add_executable(RotatedRect ./pointSets/RotatedRect.cpp)
 add_executable(HTLine ./houghLine/HTLine.cpp)
 add_executable(ContourArea ./outline/ContourArea.cpp)
 add_executable(convexityDefects ./outline/convexityDefects.cpp)
+add_executable(fillPoly ./outline/fillPoly.cpp)
 
 
 target_link_libraries(clion_opencv_app ${OpenCV_LIBS})
@@ -25,3 +26,4 @@ target_link_libraries(RotatedRect ${OpenCV_LIBS})
 target_link_libraries(HTLine ${OpenCV_LIBS})
 target_link_libraries(ContourArea ${OpenCV_LIBS})
 target_link_libraries(convexityDefects ${OpenCV_LIBS})
+target_link_libraries(fillPoly ${OpenCV_LIBS})
