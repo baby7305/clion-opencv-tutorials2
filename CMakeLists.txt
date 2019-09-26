@@ -11,9 +11,11 @@ add_executable(clion_opencv_app main.cpp)
 add_executable(LPFilter ./LPFilter/LPFilter.cpp)
 add_executable(bpFilter ./band/bpFilter.cpp)
 add_executable(brFilter ./band/brFilter.cpp)
+add_executable(ihpFilter ./band/ihpFilter.cpp)
 
 
 target_link_libraries(clion_opencv_app ${OpenCV_LIBS})
 target_link_libraries(LPFilter ${OpenCV_LIBS})
 target_link_libraries(bpFilter ${OpenCV_LIBS})
 target_link_libraries(brFilter ${OpenCV_LIBS})
+target_link_libraries(ihpFilter ${OpenCV_LIBS})
