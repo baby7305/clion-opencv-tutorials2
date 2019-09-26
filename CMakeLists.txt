@@ -9,7 +9,9 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 
 add_executable(clion_opencv_app main.cpp)
 add_executable(boxPoints_OpenCV3 ./pointSets/boxPoints_OpenCV3.cpp)
+add_executable(convexHull ./pointSets/convexHull.cpp)
 
 
 target_link_libraries(clion_opencv_app ${OpenCV_LIBS})
 target_link_libraries(boxPoints_OpenCV3 ${OpenCV_LIBS})
+target_link_libraries(convexHull ${OpenCV_LIBS})
