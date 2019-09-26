@@ -9,7 +9,9 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 
 add_executable(clion_opencv_app main.cpp)
 add_executable(HLS ./color/HLS.cpp)
+add_executable(HSV ./color/HSV.cpp)
 
 
 target_link_libraries(clion_opencv_app ${OpenCV_LIBS})
 target_link_libraries(HLS ${OpenCV_LIBS})
+target_link_libraries(HSV ${OpenCV_LIBS})
