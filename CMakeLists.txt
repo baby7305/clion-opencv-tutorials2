@@ -9,7 +9,9 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 
 add_executable(clion_opencv_app main.cpp)
 add_executable(fft2 ./fft2/fft2.cpp)
+add_executable(spectrum ./spectrum/spectrum.cpp)
 
 
 target_link_libraries(clion_opencv_app ${OpenCV_LIBS})
 target_link_libraries(fft2 ${OpenCV_LIBS})
+target_link_libraries(spectrum ${OpenCV_LIBS})
