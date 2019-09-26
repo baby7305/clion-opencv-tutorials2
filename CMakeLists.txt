@@ -8,6 +8,8 @@ find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
 add_executable(clion_opencv_app main.cpp)
+add_executable(boxPoints_OpenCV3 ./pointSets/boxPoints_OpenCV3.cpp)
 
 
 target_link_libraries(clion_opencv_app ${OpenCV_LIBS})
+target_link_libraries(boxPoints_OpenCV3 ${OpenCV_LIBS})
